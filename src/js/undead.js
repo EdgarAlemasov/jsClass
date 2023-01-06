@@ -1,0 +1,10 @@
+import Character from "./app";
+
+
+export default class Undead extends Character{
+    constructor (name, type) {
+        super(name, type);
+        this.attack = 25;
+        this.defeence = 25;
+    };
+};
